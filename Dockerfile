@@ -2,7 +2,7 @@ FROM maven:3.6.3-openjdk-8 AS build
 
 WORKDIR /opt/iotruck/bino
 
-COPY /opt/iotruck/bino
+COPY ./bino /opt/iotruck/bino
 
 RUN mvn -f /opt/iotruck/bino/pom.xml clean package -Dmaven.test.skip=true
 
