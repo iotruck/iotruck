@@ -4,7 +4,7 @@ WORKDIR /opt/iotruck/bino
 
 COPY ./ /opt/iotruck/bino
 
-RUN mvn package -Dmaven.test.skip=true
+RUN mvn -f /opt/iotruck/bino/pom.xml clean package -Dmaven.test.skip=true
 
 
 FROM openjdk:8
