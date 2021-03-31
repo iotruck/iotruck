@@ -21,16 +21,16 @@ jobs:
 
     - uses: azure/docker-login@v1
       with:
-        login-server: https://index.docker.io/v1/
-        username: ${{ secrets.AzureAppService_ContainerUsername_3ab5e5e254a64138abf9266e2993ad71 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_4c555f635bb84a0192364b477314a65e }}
+        login-server: https://apibino.azurecr.io/
+        username: ${{ secrets.AzureAppService_ContainerUsername_444eea8548414cb7829984723dc6f82c }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_275ddaa057a0442bbfd89e6aca1cd0c8 }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v2.2.1
       with:
         push: true
-        tags: iotruck/bino:${{ github.sha }}
-        file: ./bino/Dockerfile
+        tags: bino:${{ github.sha }}
+        file: ./Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
@@ -46,5 +46,5 @@ jobs:
       with:
         app-name: 'bciotruck'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0a8fa3a795614be79e43e5911c596811 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_3ab5e5e254a64138abf9266e2993ad71 }}/iotruck/bino:${{ github.sha }}'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a872268704c24e469cc9f4a766747f05 }}
+        images: 'apibino.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_444eea8548414cb7829984723dc6f82c }}/bino:${{ github.sha }}'
