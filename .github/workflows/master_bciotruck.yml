@@ -30,7 +30,7 @@ jobs:
       with:
         push: true
         tags: iotruck/bino:${{ github.sha }}
-        file: ./Dockerfile
+        file: ./bino/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
