@@ -1,0 +1,80 @@
+.form-analyst {
+    display: block;
+
+    left: 16%;
+}
+
+.form-initial{
+    width: 85%;
+}
+
+.section-forms-analyst form, .list-analyst {
+    height: 470px;
+    width: 450px;
+    padding: 15px 0px 0px 40px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+}
+
+.section-forms-analyst label {
+    background-color: white;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.section-forms-analyst input {
+    width: 100%;
+    font-size: 16px;
+    padding: 16px 10px 10px;
+    margin-bottom: 7%;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.inline-form-analyst {
+    display: inline-block;
+    width: 50%;
+
+}
+
+.inline-form-analyst input {
+    width: 70%;
+    margin-bottom: 14%;
+}
+
+form h3 {
+    color:#F97801;
+    font-family: Roboto;
+    font-style: normal;
+    margin-bottom: 5%;
+}
+
+form button {
+    width: 197px;
+    height: 35px;
+    background: #010A2C;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+
+.list-analyst{
+    top: 15%;
+    left:60%;
+    background-color: transparent;
+    box-shadow: none;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.list-analyst .status{
+    left: 10px;
+}
+
+.list-analyst h3{
+    border-bottom: 1px black solid;
+    padding-bottom: 1%;
+}

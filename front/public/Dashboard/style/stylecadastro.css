@@ -1,0 +1,218 @@
+.webs{
+    width: 100%;
+}
+
+#formCaminhao {
+    display: block;
+}
+
+#formMotorista {
+  display: none;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 160px;
+    height: 34px;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #010A2C;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #F97801;
+  }
+
+  input:checked + #formMotorista:before {
+    display: block;
+  }
+
+  input:checked + #formCaminhao:before {
+    display: none;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #F97801;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(126px);
+    -ms-transform: translateX(126px);
+    transform: translateX(126px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+.section-forms {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-forms form {
+    height: 500px;
+    width: 450px;
+    padding: 30px 0px 0px 40px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.section-forms label {
+    position: absolute;
+    background-color: white;
+    margin-top: -12px;
+    margin-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    padding: 3px 3px 3px 3px;
+}
+
+.section-forms input {
+    width: 85%;
+    height: 3%;
+    font-size: 16px;
+    outline: 0;
+    padding: 16px 10px 10px;
+    margin-bottom: 7%;
+}
+
+
+.inline-form {
+    display: inline-block;
+    width: 50%;
+}
+
+.inline-form input {
+    width: 70%;
+    margin-bottom: 14%;
+}
+
+form h3 {
+    color:#F97801;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+form button {
+    width: 197px;
+    height: 35px;
+    background: #010A2C;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+
+/*SECTION TAGS*/
+
+.tags {
+    width: 50%;
+    height: 510px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    float: right;
+    margin-top: -47%;
+}
+
+    @media screen and (max-width: 1024px) {
+        .tags {
+            margin-top: -54%;
+        }
+    }
+
+.motorista {
+    height: 200px;
+    width: 100%;
+}
+
+.motorista::-webkit-scrollbar {
+    width: 13px; 
+  }
+  
+.motorista::-webkit-scrollbar-thumb {
+    background-color: #F97801; 
+    border-radius: 20px;   
+}
+
+.caminhao {
+    height: 200px;
+    width: 100%;
+}
+
+.caminhao::-webkit-scrollbar {
+    width: 13px; 
+  }
+  
+.caminhao::-webkit-scrollbar-thumb {
+    background-color: #F97801; 
+    border-radius: 20px;   
+}
+
+.cards {
+    padding: 15px 0px 0px 15px;
+    margin-top: 5px;
+    margin-left: 30px;
+    height: 180px;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tags input {
+    width: 82%;
+    height: 30px;
+    margin-left: 6%;
+    margin-bottom: 2%;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.tags input::placeholder {
+    color: rgb(19, 19, 19);
+    font-size: 14px;
+}
+
+.tags p {
+    padding: 3px;
+}
