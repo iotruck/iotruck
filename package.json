@@ -1,0 +1,12 @@
+{
+  "name":"iotruck",
+  "version":"0.0.1",
+  "private": true,
+  "engines": {
+      "node": "12" 
+  },
+  "main":"front/bin/www",
+  "scripts":{
+    "start": "node front/bin/www"
+  }
+}
