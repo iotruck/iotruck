@@ -1,22 +1,15 @@
-FROM maven:3.6.3-openjdk-8 AS build
-
-WORKDIR /opt/iotruck/bino
-
-COPY ./bino /opt/iotruck/bino
-
-RUN mvn -f /opt/iotruck/bino/pom.xml clean package -Dmaven.test.skip=true
-
-
 FROM openjdk:8
 
 ARG PROFILE
 
 ENV PROFILE=${PROFILE}
 
-WORKDIR /opt/bino
+WORKDIR /opt/iotruck
 
-COPY --from=build /opt/iotruck/bino/target/bino-0.0.1-SNAPSHOT.jar /opt/bino/bino.jar 
+COPY /target/bino*.jar iotruck.jar
+
+SHELL ["/bin/sh","-c"]
 
 EXPOSE 8080
 
-CMD java -jar /opt/bino/bino.jar --spring.profiles.active=${PROFILE}
+CMD java -jar /opt/iotruck/iotruck.jar --spring.profiles.active=${PROFILE}
