@@ -24,9 +24,9 @@ jobs:
       run: mvn clean install
 
     - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@v1
-        with:
-          app-name: "binoapi"
-          slot-name: "production"
+      uses: azure/webapps-deploy@v1
+      with:
+        app-name: "binoapi"
+        slot-name: "production"
         publish-profile: $ {{secrets.AZURE_CREDENTIALS}}
         package: '${{ github.workspace }}/target/*.jar'
