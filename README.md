@@ -1,4 +1,4 @@
-![iotruck, entenda quem somos e o que fazemos](https://github.com/iotruck/bino-portal/blob/master/readme.png)
+![iotruck, entenda quem somos e o que fazemos](https://github.com/iotruck/bino-api/blob/master/readme.png)
 
 # iotruck
 ## Atravessando todas as fronteiras juntos
