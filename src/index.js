@@ -1,17 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import reactDom from 'react-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import './assets/styles/reset.css'
+import './assets/styles/menu.css'
+import './assets/styles/search.css'
+import './assets/styles/user.css'
+import './assets/styles/display.css'
+import './assets/styles/page-home.css'
+import './assets/styles/active-travels.css'
+import './assets/styles/notify.css'
+import './assets/styles/chat.css'
+import './assets/styles/tracking.css'
+import './assets/styles/assignAnalyst.css'
+import './assets/styles/card.css'
+import './assets/styles/page-notify.css'
+import './assets/styles/notify-notification.css'
+import './assets/styles/travel.css'
+import './assets/styles/login.css'
+import './assets/styles/styletruck.css'
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reactDom.render(<App />, document.getElementById('root'));

@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+![iotruck, entenda quem somos e o que fazemos](https://github.com/iotruck/bino-portal/blob/master/readme.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# iotruck
+## Atravessando todas as fronteiras juntos
 
-## Available Scripts
+### Nossa motivação 🔎
+ 
+> Nós focamos no cadastro de rotas e rastreamento de caminhões com visualização remota de entregas, pois a falta de logística e monitoramento das rotas para empresa de pequeno e médio porte ainda é o maior problema no desenvolvimento dessas empresas e para a logística no nosso país, confira abaixo como está nosso desenvolvimento e a nossa visão para o futuro.
 
-In the project directory, you can run:
+### Principais artefatos :paperclip:
 
-### `npm start`
+> Para entedermos mais afundo a ideia da iotruck é essencial que veja os nossos documentos de contexto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Documento de contexto](https://www.canva.com/design/DAEXF995xBk/eCtSiL9wDmpL2pbWxb66OA/view?utm_content=DAEXF995xBk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Definição de protopersonas](https://www.canva.com/design/DAEaiS4MybY/dGI5t74ycXgIaQIUJ6Jxlg/view?utm_content=DAEaiS4MybY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
-### `npm test`
+[Mapa de empatia das personas](https://www.canva.com/design/DAEX68AEFm8/PizIb9HnAKlW1ol6HZKdyQ/view?utm_content=DAEX68AEFm8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Nosso storyboard](https://www.canva.com/design/DAEaiZ4NOyE/om5dbf_m1ZUedF_yvwvk1A/view?utm_content=DAEaiZ4NOyE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
-### `npm run build`
+## Nossas protopersonas :man:
+> Afim de mostrar os usuários que temos do nosso sistema foi desenvolvido desenho para deixar claro quem realmente pode utilizar o nosso projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- São elas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> **Pedro** - Ele será o funcionário da empresa cliente que é designado para o papel de analista de rotas, conferindo notificações da entrega e conversando com os responsáveis pela carga. Você pode conferir mais detalhes sobre ele [clicando aqui](https://www.canva.com/design/DAEaiS4MybY/dGI5t74ycXgIaQIUJ6Jxlg/view?utm_content=DAEaiS4MybY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> **Waldesio** - Será o caminhoneiro que fará a entrega que a empresa contrante precisa, ele terá um papel fundamental no nosso desenho de solução uma vez que é responsável por enviar status de suas atividades colaborando com a segurança da entrega. Saiba mais [clicando aqui](https://www.canva.com/design/DAEaiS4MybY/dGI5t74ycXgIaQIUJ6Jxlg/view?utm_content=DAEaiS4MybY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton#2).
 
-### `npm run eject`
+## Nossos desafios :bulb:
+- [x] Prototipação das telas ([clique aqui](https://www.figma.com/file/kmA2NBRXQhK1F2Gjb0o6lC/site-e-dashboard?node-id=169%3A2))
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [x] Desenvolvimento das telas ([clique aqui](https://github.com/BandTec/iotruck/tree/develop))
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ ] APIS do projeto ([clique aqui](https://github.com/BandTec/iotruck/tree/develop/bino))
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [ ] Desenho de solução ([clique aqui](https://brazilsouth1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fbandteccom-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!O_rd7fuGZECMhOWIYn85Z1Etgob1AopIgPMLYh58MXqBjxYfgz8zS58M7BUrzj-Y%2Fitems%2F01X2FTYLVH2PMIWN4FNBFJZLQDJELDCGEO%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYmFuZHRlY2NvbS1teS5zaGFyZXBvaW50LmNvbUBmZDUwYjQ1Ny04NGUwLTQwMGMtODBmMi00NjBmMjhlYjQxYTYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjE3Mzc1NjAwIiwiZXhwIjoiMTYxNzM5NzIwMCIsImVuZHBvaW50dXJsIjoidXd2NFZmenNCZDZwQWQ5VUJ5anBrVUZVYnQrTVpYMUYzMFZqRGU4c1padz0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpXUmtaR1poTTJJdE9EWm1ZaTAwTURZMExUaGpPRFF0WlRVNE9EWXlOMll6T1RZMyIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8am9zZS5xdWVpcm96QGJhbmR0ZWMuY29tLmJyIiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDA5OGRmMDg3OUBsaXZlLmNvbSIsInR0IjoiMCIsInVzZVBlcnNpc3RlbnRDb29raWUiOiIzIn0.NXRoSi9LQU9wbi85QnB4M1lySWJEMjQ2ZlR4dktDSlg2dTdsdXNRVFNEWT0&encodeFailures=1&srcWidth=&srcHeight=&width=1594&height=897&action=Access))
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3 align="center"> Feito com 💜 </h3>
