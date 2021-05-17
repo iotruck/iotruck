@@ -23,8 +23,8 @@ jobs:
 
     - name: npm install, build, and test
       run: |
+        npm cache clear --force
         npm install
-        npm install react-scripts@latest
         npm run build 
 
     - name: 'Deploy to Azure Web App'
